@@ -1,0 +1,86 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+  }
+
+.main{
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.title{
+    color: black;
+    width: 200px;
+    height: 80px;
+    word-break: keep-all;
+}
+
+.sp{
+    color: gray;
+    font-size: small;
+}
+
+.input-box{
+    width: 200px;
+    height: 20px;
+    border:0 solid black;
+    border-bottom: 1px solid gray;
+}
+
+.btn{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5%;
+}
+
+#mac{
+    width:200px;
+    height:200px;
+    border-radius: 3rem;
+    background-color:transparent;
+}
+
+.text {
+    width: 18ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.4em;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+.images {
+    overflow: hidden;
+}
+.images img {
+    transition: all 0.6s linear;
+}
+
+.images:hover img {
+    transform-origin: 100px 50px;
+    transform: scale(5.8);
+}
